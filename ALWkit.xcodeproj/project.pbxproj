@@ -657,6 +657,7 @@
 				61E103B91EBF53E300F5B04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61E103BA1EBF53E300F5B04F /* Build configuration list for PBXNativeTarget "ALWkitTests" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +666,7 @@
 				61E103BC1EBF53E300F5B04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61E103BD1EBF53E300F5B04F /* Build configuration list for PBXNativeTarget "ALWkitUITests" */ = {
 			isa = XCConfigurationList;
@@ -673,6 +675,7 @@
 				61E103BF1EBF53E300F5B04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
