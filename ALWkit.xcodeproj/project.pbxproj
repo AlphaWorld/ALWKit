@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61E1038F1EBF53E300F5B04F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E1038E1EBF53E300F5B04F /* main.m */; };
+		61E103921EBF53E300F5B04F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E103911EBF53E300F5B04F /* AppDelegate.m */; };
+		61E103951EBF53E300F5B04F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E103941EBF53E300F5B04F /* ViewController.m */; };
+		61E103981EBF53E300F5B04F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E103961EBF53E300F5B04F /* Main.storyboard */; };
+		61E1039A1EBF53E300F5B04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E103991EBF53E300F5B04F /* Assets.xcassets */; };
+		61E1039D1EBF53E300F5B04F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E1039B1EBF53E300F5B04F /* LaunchScreen.storyboard */; };
+		61E103A81EBF53E300F5B04F /* ALWkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E103A71EBF53E300F5B04F /* ALWkitTests.m */; };
+		61E103B31EBF53E300F5B04F /* ALWkitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E103B21EBF53E300F5B04F /* ALWkitUITests.m */; };
+		61E103CE1EBF549500F5B04F /* UIColor+ALWHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E103C41EBF549500F5B04F /* UIColor+ALWHexString.m */; };
+		61E103CF1EBF549500F5B04F /* UIImage+ALWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E103C61EBF549500F5B04F /* UIImage+ALWColor.m */; };
+		61E103D01EBF549500F5B04F /* UITabBarItem+ALWRemindBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E103C81EBF549500F5B04F /* UITabBarItem+ALWRemindBadge.m */; };
+		61E103D11EBF549500F5B04F /* UIView+ALWHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E103CA1EBF549500F5B04F /* UIView+ALWHUD.m */; };
+		61E103D21EBF549500F5B04F /* UIView+ALWSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E103CC1EBF549500F5B04F /* UIView+ALWSnapshot.m */; };
+		61E103D81EBF667200F5B04F /* UIDevice+ALWDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E103D71EBF667200F5B04F /* UIDevice+ALWDevice.m */; };
+		D95BB8CCA246166604A85B7A /* Pods_ALWkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8424E307538CAB9E0F2B1739 /* Pods_ALWkit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61E103A41EBF53E300F5B04F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61E103821EBF53E300F5B04F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61E103891EBF53E300F5B04F;
+			remoteInfo = ALWkit;
+		};
+		61E103AF1EBF53E300F5B04F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61E103821EBF53E300F5B04F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61E103891EBF53E300F5B04F;
+			remoteInfo = ALWkit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A4D1190EA8A1930BA4AA1BF /* Pods-ALWkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALWkit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALWkit/Pods-ALWkit.release.xcconfig"; sourceTree = "<group>"; };
+		61E1038A1EBF53E300F5B04F /* ALWkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALWkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E1038E1EBF53E300F5B04F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61E103901EBF53E300F5B04F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61E103911EBF53E300F5B04F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61E103931EBF53E300F5B04F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61E103941EBF53E300F5B04F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61E103971EBF53E300F5B04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61E103991EBF53E300F5B04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61E1039C1EBF53E300F5B04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61E1039E1EBF53E300F5B04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E103A31EBF53E300F5B04F /* ALWkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALWkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E103A71EBF53E300F5B04F /* ALWkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALWkitTests.m; sourceTree = "<group>"; };
+		61E103A91EBF53E300F5B04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E103AE1EBF53E300F5B04F /* ALWkitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALWkitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E103B21EBF53E300F5B04F /* ALWkitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALWkitUITests.m; sourceTree = "<group>"; };
+		61E103B41EBF53E300F5B04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E103C11EBF549500F5B04F /* ALkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALkit.h; sourceTree = "<group>"; };
+		61E103C31EBF549500F5B04F /* UIColor+ALWHexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ALWHexString.h"; sourceTree = "<group>"; };
+		61E103C41EBF549500F5B04F /* UIColor+ALWHexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ALWHexString.m"; sourceTree = "<group>"; };
+		61E103C51EBF549500F5B04F /* UIImage+ALWColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ALWColor.h"; sourceTree = "<group>"; };
+		61E103C61EBF549500F5B04F /* UIImage+ALWColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ALWColor.m"; sourceTree = "<group>"; };
+		61E103C71EBF549500F5B04F /* UITabBarItem+ALWRemindBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+ALWRemindBadge.h"; sourceTree = "<group>"; };
+		61E103C81EBF549500F5B04F /* UITabBarItem+ALWRemindBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+ALWRemindBadge.m"; sourceTree = "<group>"; };
+		61E103C91EBF549500F5B04F /* UIView+ALWHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ALWHUD.h"; sourceTree = "<group>"; };
+		61E103CA1EBF549500F5B04F /* UIView+ALWHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ALWHUD.m"; sourceTree = "<group>"; };
+		61E103CB1EBF549500F5B04F /* UIView+ALWSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ALWSnapshot.h"; sourceTree = "<group>"; };
+		61E103CC1EBF549500F5B04F /* UIView+ALWSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ALWSnapshot.m"; sourceTree = "<group>"; };
+		61E103D61EBF667200F5B04F /* UIDevice+ALWDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+ALWDevice.h"; sourceTree = "<group>"; };
+		61E103D71EBF667200F5B04F /* UIDevice+ALWDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+ALWDevice.m"; sourceTree = "<group>"; };
+		8424E307538CAB9E0F2B1739 /* Pods_ALWkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALWkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF39DEA575B94A21D391DA37 /* Pods-ALWkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALWkit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALWkit/Pods-ALWkit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61E103871EBF53E300F5B04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95BB8CCA246166604A85B7A /* Pods_ALWkit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E103A01EBF53E300F5B04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E103AB1EBF53E300F5B04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D1ECAC3F7195EC1D19B7345 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF39DEA575B94A21D391DA37 /* Pods-ALWkit.debug.xcconfig */,
+				1A4D1190EA8A1930BA4AA1BF /* Pods-ALWkit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F27D5540B98D4DB8E6B2043 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8424E307538CAB9E0F2B1739 /* Pods_ALWkit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61E103811EBF53E300F5B04F = {
+			isa = PBXGroup;
+			children = (
+				61E1038C1EBF53E300F5B04F /* ALWkit */,
+				61E103A61EBF53E300F5B04F /* ALWkitTests */,
+				61E103B11EBF53E300F5B04F /* ALWkitUITests */,
+				61E1038B1EBF53E300F5B04F /* Products */,
+				0D1ECAC3F7195EC1D19B7345 /* Pods */,
+				4F27D5540B98D4DB8E6B2043 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61E1038B1EBF53E300F5B04F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61E1038A1EBF53E300F5B04F /* ALWkit.app */,
+				61E103A31EBF53E300F5B04F /* ALWkitTests.xctest */,
+				61E103AE1EBF53E300F5B04F /* ALWkitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61E1038C1EBF53E300F5B04F /* ALWkit */ = {
+			isa = PBXGroup;
+			children = (
+				61E103C01EBF549500F5B04F /* ALWkit */,
+				61E103901EBF53E300F5B04F /* AppDelegate.h */,
+				61E103911EBF53E300F5B04F /* AppDelegate.m */,
+				61E103931EBF53E300F5B04F /* ViewController.h */,
+				61E103941EBF53E300F5B04F /* ViewController.m */,
+				61E103961EBF53E300F5B04F /* Main.storyboard */,
+				61E103991EBF53E300F5B04F /* Assets.xcassets */,
+				61E1039B1EBF53E300F5B04F /* LaunchScreen.storyboard */,
+				61E1039E1EBF53E300F5B04F /* Info.plist */,
+				61E1038D1EBF53E300F5B04F /* Supporting Files */,
+			);
+			path = ALWkit;
+			sourceTree = "<group>";
+		};
+		61E1038D1EBF53E300F5B04F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61E1038E1EBF53E300F5B04F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61E103A61EBF53E300F5B04F /* ALWkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				61E103A71EBF53E300F5B04F /* ALWkitTests.m */,
+				61E103A91EBF53E300F5B04F /* Info.plist */,
+			);
+			path = ALWkitTests;
+			sourceTree = "<group>";
+		};
+		61E103B11EBF53E300F5B04F /* ALWkitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61E103B21EBF53E300F5B04F /* ALWkitUITests.m */,
+				61E103B41EBF53E300F5B04F /* Info.plist */,
+			);
+			path = ALWkitUITests;
+			sourceTree = "<group>";
+		};
+		61E103C01EBF549500F5B04F /* ALWkit */ = {
+			isa = PBXGroup;
+			children = (
+				61E103C11EBF549500F5B04F /* ALkit.h */,
+				61E103C21EBF549500F5B04F /* Catagory */,
+				61E103CD1EBF549500F5B04F /* Modules */,
+			);
+			path = ALWkit;
+			sourceTree = "<group>";
+		};
+		61E103C21EBF549500F5B04F /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				61E103C31EBF549500F5B04F /* UIColor+ALWHexString.h */,
+				61E103C41EBF549500F5B04F /* UIColor+ALWHexString.m */,
+				61E103C51EBF549500F5B04F /* UIImage+ALWColor.h */,
+				61E103C61EBF549500F5B04F /* UIImage+ALWColor.m */,
+				61E103C71EBF549500F5B04F /* UITabBarItem+ALWRemindBadge.h */,
+				61E103C81EBF549500F5B04F /* UITabBarItem+ALWRemindBadge.m */,
+				61E103C91EBF549500F5B04F /* UIView+ALWHUD.h */,
+				61E103CA1EBF549500F5B04F /* UIView+ALWHUD.m */,
+				61E103CB1EBF549500F5B04F /* UIView+ALWSnapshot.h */,
+				61E103CC1EBF549500F5B04F /* UIView+ALWSnapshot.m */,
+				61E103D61EBF667200F5B04F /* UIDevice+ALWDevice.h */,
+				61E103D71EBF667200F5B04F /* UIDevice+ALWDevice.m */,
+			);
+			path = Catagory;
+			sourceTree = "<group>";
+		};
+		61E103CD1EBF549500F5B04F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61E103891EBF53E300F5B04F /* ALWkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E103B71EBF53E300F5B04F /* Build configuration list for PBXNativeTarget "ALWkit" */;
+			buildPhases = (
+				939F00A168711DC10B540088 /* [CP] Check Pods Manifest.lock */,
+				61E103861EBF53E300F5B04F /* Sources */,
+				61E103871EBF53E300F5B04F /* Frameworks */,
+				61E103881EBF53E300F5B04F /* Resources */,
+				2258A95CC1A9C800FA533EBF /* [CP] Embed Pods Frameworks */,
+				555C1109ED1CD1BCAFCB4810 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALWkit;
+			productName = ALWkit;
+			productReference = 61E1038A1EBF53E300F5B04F /* ALWkit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61E103A21EBF53E300F5B04F /* ALWkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E103BA1EBF53E300F5B04F /* Build configuration list for PBXNativeTarget "ALWkitTests" */;
+			buildPhases = (
+				61E1039F1EBF53E300F5B04F /* Sources */,
+				61E103A01EBF53E300F5B04F /* Frameworks */,
+				61E103A11EBF53E300F5B04F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61E103A51EBF53E300F5B04F /* PBXTargetDependency */,
+			);
+			name = ALWkitTests;
+			productName = ALWkitTests;
+			productReference = 61E103A31EBF53E300F5B04F /* ALWkitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61E103AD1EBF53E300F5B04F /* ALWkitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E103BD1EBF53E300F5B04F /* Build configuration list for PBXNativeTarget "ALWkitUITests" */;
+			buildPhases = (
+				61E103AA1EBF53E300F5B04F /* Sources */,
+				61E103AB1EBF53E300F5B04F /* Frameworks */,
+				61E103AC1EBF53E300F5B04F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61E103B01EBF53E300F5B04F /* PBXTargetDependency */,
+			);
+			name = ALWkitUITests;
+			productName = ALWkitUITests;
+			productReference = 61E103AE1EBF53E300F5B04F /* ALWkitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61E103821EBF53E300F5B04F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AlphaWorld;
+				TargetAttributes = {
+					61E103891EBF53E300F5B04F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = DV66Y92MY3;
+						ProvisioningStyle = Automatic;
+					};
+					61E103A21EBF53E300F5B04F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = DV66Y92MY3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61E103891EBF53E300F5B04F;
+					};
+					61E103AD1EBF53E300F5B04F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = DV66Y92MY3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61E103891EBF53E300F5B04F;
+					};
+				};
+			};
+			buildConfigurationList = 61E103851EBF53E300F5B04F /* Build configuration list for PBXProject "ALWkit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61E103811EBF53E300F5B04F;
+			productRefGroup = 61E1038B1EBF53E300F5B04F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61E103891EBF53E300F5B04F /* ALWkit */,
+				61E103A21EBF53E300F5B04F /* ALWkitTests */,
+				61E103AD1EBF53E300F5B04F /* ALWkitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61E103881EBF53E300F5B04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E1039D1EBF53E300F5B04F /* LaunchScreen.storyboard in Resources */,
+				61E1039A1EBF53E300F5B04F /* Assets.xcassets in Resources */,
+				61E103981EBF53E300F5B04F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E103A11EBF53E300F5B04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E103AC1EBF53E300F5B04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2258A95CC1A9C800FA533EBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALWkit/Pods-ALWkit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		555C1109ED1CD1BCAFCB4810 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALWkit/Pods-ALWkit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		939F00A168711DC10B540088 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61E103861EBF53E300F5B04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E103D01EBF549500F5B04F /* UITabBarItem+ALWRemindBadge.m in Sources */,
+				61E103951EBF53E300F5B04F /* ViewController.m in Sources */,
+				61E103CE1EBF549500F5B04F /* UIColor+ALWHexString.m in Sources */,
+				61E103921EBF53E300F5B04F /* AppDelegate.m in Sources */,
+				61E103D11EBF549500F5B04F /* UIView+ALWHUD.m in Sources */,
+				61E1038F1EBF53E300F5B04F /* main.m in Sources */,
+				61E103D81EBF667200F5B04F /* UIDevice+ALWDevice.m in Sources */,
+				61E103CF1EBF549500F5B04F /* UIImage+ALWColor.m in Sources */,
+				61E103D21EBF549500F5B04F /* UIView+ALWSnapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E1039F1EBF53E300F5B04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E103A81EBF53E300F5B04F /* ALWkitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E103AA1EBF53E300F5B04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E103B31EBF53E300F5B04F /* ALWkitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61E103A51EBF53E300F5B04F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61E103891EBF53E300F5B04F /* ALWkit */;
+			targetProxy = 61E103A41EBF53E300F5B04F /* PBXContainerItemProxy */;
+		};
+		61E103B01EBF53E300F5B04F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61E103891EBF53E300F5B04F /* ALWkit */;
+			targetProxy = 61E103AF1EBF53E300F5B04F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61E103961EBF53E300F5B04F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61E103971EBF53E300F5B04F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61E1039B1EBF53E300F5B04F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61E1039C1EBF53E300F5B04F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61E103B51EBF53E300F5B04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61E103B61EBF53E300F5B04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61E103B81EBF53E300F5B04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF39DEA575B94A21D391DA37 /* Pods-ALWkit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DV66Y92MY3;
+				INFOPLIST_FILE = ALWkit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlphaWorld.ALWkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61E103B91EBF53E300F5B04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A4D1190EA8A1930BA4AA1BF /* Pods-ALWkit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DV66Y92MY3;
+				INFOPLIST_FILE = ALWkit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlphaWorld.ALWkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		61E103BB1EBF53E300F5B04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DV66Y92MY3;
+				INFOPLIST_FILE = ALWkitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlphaWorld.ALWkitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALWkit.app/ALWkit";
+			};
+			name = Debug;
+		};
+		61E103BC1EBF53E300F5B04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DV66Y92MY3;
+				INFOPLIST_FILE = ALWkitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlphaWorld.ALWkitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALWkit.app/ALWkit";
+			};
+			name = Release;
+		};
+		61E103BE1EBF53E300F5B04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DV66Y92MY3;
+				INFOPLIST_FILE = ALWkitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlphaWorld.ALWkitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ALWkit;
+			};
+			name = Debug;
+		};
+		61E103BF1EBF53E300F5B04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DV66Y92MY3;
+				INFOPLIST_FILE = ALWkitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlphaWorld.ALWkitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ALWkit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61E103851EBF53E300F5B04F /* Build configuration list for PBXProject "ALWkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E103B51EBF53E300F5B04F /* Debug */,
+				61E103B61EBF53E300F5B04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E103B71EBF53E300F5B04F /* Build configuration list for PBXNativeTarget "ALWkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E103B81EBF53E300F5B04F /* Debug */,
+				61E103B91EBF53E300F5B04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61E103BA1EBF53E300F5B04F /* Build configuration list for PBXNativeTarget "ALWkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E103BB1EBF53E300F5B04F /* Debug */,
+				61E103BC1EBF53E300F5B04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61E103BD1EBF53E300F5B04F /* Build configuration list for PBXNativeTarget "ALWkitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E103BE1EBF53E300F5B04F /* Debug */,
+				61E103BF1EBF53E300F5B04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61E103821EBF53E300F5B04F /* Project object */;
+}
